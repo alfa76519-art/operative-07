@@ -1,0 +1,19 @@
+body {
+    background-color: #050505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#clock {
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff41; /* Hijau Matrix */
+    font-size: 6rem;
+    text-shadow: 0 0 20px #00ff41, 0 0 40px #003300;
+    border: 4px double #00ff41;
+    padding: 30px;
+    background: rgba(0, 255, 65, 0.05);
+    box-shadow: inset 0 0 15px rgba(0, 255, 65, 0.2);
+}
